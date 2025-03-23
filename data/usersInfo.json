@@ -1,14 +1,15 @@
 {
-  "full_name": "Benaiah Alumona",
-  "tag_line": "Making The Impossible Possible. Using 1's and 0's.",
-  "intro_tagline": "Mission driven software engineer, with a passion for thoughtful UI design, collaboration, and teaching." ,
-  "subTitle": "Problem solving is what makes me unique.",
-  "tech_year": "2019",
-  "github_username": "benrobo",
+  "full_name": "Hamza Ichaoui",
+  "tag_line": "Turning the unimaginable into reality, powered by bits and bytes.",
+  "intro_tagline": "Building robust backends where logic, performance, and reliability come together to power seamless digital experiences." ,
+  "subTitle": "Behind every smooth app lies backend magic ensuring speed and security.",
+  "tech_year": "2021",
+  "github_username": "hamza-25",
   "user_skill": "Software Engineer",
-  "favorites_quote": "Willingness to take intelligient risks in the pursuit of your clearly defined goals, put you on a greater side of life. Enabling you to archive the same level of success in 1 or 2 years, which may take other people10 or 20 years to archieve, if lessed focused.",
+  "favorites_quote": "No great code is written in a single sitting. It’s built line by line, with patience, persistence, and countless moments of trial and error.",
   "greeting_type": "Hi ✌",
   "bio_desc": [
-    "As a software developer, I enjoy using my obsessive attention to detail, my unequivocal love for making things, and my mission-driven work ethic to literally change the world. That's why I’m excited to make a big impact at a high growth company."
-  ]
+    "I’m passionate about turning complex challenges into innovative, scalable solutions. As a software engineer, I’ve built high-performing web applications using Python, JavaScript, and other cutting-edge technologies."
+  ],
+  "cv": "https://drive.google.com/file/d/1tYZcopvXV4shgxAXYzDAmu78QLkawiV7/view?usp=sharing"
 }

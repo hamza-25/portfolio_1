@@ -101,7 +101,9 @@ export default function Header({ children }) {
                         </div>
                         <div className="w-full h-auto mt-[60px]">
                             <br />
-                            <button className="w-[150px] border-[2px] border-solid border-green-200 px-5 py-3 bg-dark-100 rounded-[30px] scale-[.90] hover:scale-[.95] transition-all  " onClick={openResume}>View CV</button>
+                            <button className="w-[150px] border-[2px] border-solid border-green-200 px-5 py-3 bg-dark-100 rounded-[30px] scale-[.90] hover:scale-[.95] transition-all  " /*onClick={openResume}*/>
+                                <a href={usersInfo.cv} target="_blank">View CV</a>
+                            </button>
                         </div>
 
                         {resumeActive && <ResumeViewer openResume={openResume} />}
