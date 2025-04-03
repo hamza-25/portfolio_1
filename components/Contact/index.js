@@ -6,7 +6,7 @@ import DataContext from '../../context/DataContext'
 import emailjs from '@emailjs/browser';
 import { Notification, validateEmail } from '../../helpers'
 import { EMAILJS_TEMPLATE_ID, EMAILJS_SERVICE_ID, EMAILJS_PUBLIC_KEY } from '../../config';
-import socials from '../../data/socials.json'
+import info from '../../data/socials.json'
 
 const notif = new Notification(3000)
 
@@ -177,8 +177,7 @@ function ContactForm({ contactActive, closeContactForm }) {
         // Encode the email components
         const subject = `Message from ${userInput.name}`;
         // const body = `Hello,\n\n${userInput.message}\n\nBest regards,\n${userInput.name}\n${userInput.email}`;
-        const body = `Hello,\n\n${userInput.message}\n\nBest regards,\n${userInput.name}\n testing socials${socials.email}`;
-        console.log(body);
+        const body = `Hello,\n\n${userInput.message}\n\nBest regards,\n${userInput.name}\n testing socials${info.socials.email}`;
         
         // Open default mail client in new tab
         window.open(
