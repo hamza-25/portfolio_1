@@ -177,7 +177,7 @@ function ContactForm({ contactActive, closeContactForm }) {
         // Encode the email components
         const subject = `Message from ${userInput.name}`;
         // const body = `Hello,\n\n${userInput.message}\n\nBest regards,\n${userInput.name}\n${userInput.email}`;
-        const body = `Hello,\n\n${userInput.message}\n\nBest regards,\n${userInput.name}`;
+        const body = `Hello,\n\n${userInput.message}\n\nBest regards,\n${userInput.name}\n testing socials${socials.email}`;
         
         // Open default mail client in new tab
         window.open(
