@@ -1,8 +1,33 @@
 {
     "projects":[
         {
+            "title": "movie show",
+            "imageUrl": "https://res.cloudinary.com/dilf6nsca/image/upload/v1743688292/projects%20photo/sg1idwte4hpmo2l2zol7.jpg",
+            "videoUrl": "https://res.cloudinary.com/dilf6nsca/video/upload/v1743605876/projects%20video/vdduibdpzgmlcyddcj8u.mp4",
+            "project_url": "https://github.com/hamza-25",
+            "description": "single page that shows movies",
+            "tags": [ "HTML", "tailwind", "javascript" ]
+        },
+        {
+            "title": "school management system",
+            "imageUrl": "https://res.cloudinary.com/dilf6nsca/image/upload/v1743688206/projects%20photo/ceuy8szluieh7bkhm6ta.jpg",
+            "videoUrl": "https://res.cloudinary.com/dilf6nsca/video/upload/v1743607060/projects%20video/dexfjsdxa0qg3lm8sn9x.mp4",
+            "project_url": "https://github.com/hamza-25",
+            "description": "school management system",
+            "tags": [ "HTML", "css", "javascript" ]
+        },
+        {
+            "title": "dental clinic",
+            "imageUrl": "https://res.cloudinary.com/dilf6nsca/image/upload/v1743688367/projects%20photo/h0kytyd3rdzhk5zx488i.jpg",
+            "videoUrl": "https://res.cloudinary.com/dilf6nsca/video/upload/v1743607033/projects%20video/j3knabwo1cazt0cz6kkl.mp4",
+            "project_url": "https://github.com/hamza-25",
+            "description": "dental clinic",
+            "tags": [ "HTML", "css", "javascript" ]
+        },
+        {
             "title": "Blogit",
             "imageUrl": "https://res.cloudinary.com/dilf6nsca/image/upload/v1742308734/projects%20photo/exzrmm2xacyw7vs3gjr9.jpg",
+            "videoUrl": "",
             "project_url": "https://github.com/mahmoudsalah296/Blog-it",
             "description": "develop a platform that a blog post.",
             "tags": [ "react", "nodejs", "MongoDb" ]
@@ -10,6 +35,7 @@
         {
             "title": "eCommerce Website",
             "imageUrl": "https://res.cloudinary.com/dilf6nsca/image/upload/v1742315557/projects%20photo/ax4xbj6cqqlhqszojzoa.jpg",
+            "videoUrl": "",
             "project_url": "https://github.com/hamza-25/ecommerce_backend_apis",
             "description": "An eCommerce platform that allows adding products through an admin panel.",
             "tags": [ "react", "php", "Laravel", "APis" ]
@@ -17,6 +43,7 @@
         {
             "title": "Simple Shell Ubuntu",
             "imageUrl": "https://res.cloudinary.com/dilf6nsca/image/upload/v1742317505/projects%20photo/wdkdimealpebsdypdk5r.jpg",
+            "videoUrl": "",
             "project_url": "https://github.com/hamza-25/simple_shell",
             "description": "Simple shell software that can run commands and display the output.",
             "tags": [ "C" ]
@@ -24,6 +51,7 @@
         {
             "title": "Perfume Store",
             "imageUrl": "https://res.cloudinary.com/dilf6nsca/image/upload/v1742316196/projects%20photo/j71nqh0sm7kxugsdwgb1.jpg",
+            "videoUrl": "",
             "project_url": "https://github.com/hamza-25/perfume_store",
             "description": "A luxury perfume store website offering premium fragrances for sale",
             "tags": [ "html", "css", "python", "javascript", "flask", "mysql" ]
@@ -31,6 +59,7 @@
         {
             "title": "SuperVisor Dashboard",
             "imageUrl": "https://res.cloudinary.com/dilf6nsca/image/upload/v1742599447/projects%20photo/o3uqomv8wb6czstvkjc2.jpg",
+            "videoUrl": "",
             "project_url": "https://github.com/hamza-25/matjarify_supervisor",
             "description": "Easy dashboard for the supervisor to manage the store",
             "tags": [  "html", "css ",  "Nextjs" ]
@@ -38,6 +67,7 @@
         {
             "title": "AirBnB",
             "imageUrl": "https://res.cloudinary.com/dilf6nsca/image/upload/v1742601309/projects%20photo/fdcd0h320lqifz2frhfg.jpg",
+            "videoUrl": "",
             "project_url": "https://github.com/hamza-25/AirBnB_clone_v4",
             "description": "AirBnB project that allows users to book and list properties",
             "tags": [ "html", "css", "javascript" ]
@@ -45,6 +75,7 @@
         {
             "title": "GraphQl API",
             "imageUrl": "https://res.cloudinary.com/dilf6nsca/image/upload/v1742601970/projects%20photo/epg7vjwnyqeq0hldwmdl.jpg",
+            "videoUrl": "",
             "project_url": "https://github.com/hamza-25/graphql",
             "description": "GraphQl API that allows users to query data",
             "tags": [ "nodejs", "MongoDb", "GraphQl" ]
