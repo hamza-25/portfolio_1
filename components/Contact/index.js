@@ -180,8 +180,9 @@ function ContactForm({ contactActive, closeContactForm }) {
         const body = `Hello,\n\n${userInput.message}\n\nBest regards,\n${userInput.name}`;
         
         // Open default mail client in new tab
+        const destMail = 'me677488@gmail.com';
         window.open(
-            `mailto:test@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`,
+            `mailto:${destMail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`,
             '_blank'
         );
         
