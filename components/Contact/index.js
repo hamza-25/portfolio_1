@@ -145,7 +145,7 @@ function ContactForm({ contactActive, closeContactForm }) {
     const [loading, setLoading] = useState(false)
     const [userInput, setUserInputs] = useState({
         name: "",
-        email: "",
+        // email: "",
         message: ""
     })
 
@@ -164,20 +164,21 @@ function ContactForm({ contactActive, closeContactForm }) {
         if (userInput.name === "") {
             return notif.error("Username can't be blank.")
         }
-        if (userInput.email === "") {
-            return notif.error("Email can't be blank.")
-        }
+        // if (userInput.email === "") {
+        //     return notif.error("Email can't be blank.")
+        // }
         if (userInput.message === "") {
             return notif.error("Message can't be blank.")
         }
-        if (!validateEmail(userInput.email)) {
-            return notif.error("Please enter a valid email address.")
-        }
+        // if (!validateEmail(userInput.email)) {
+        //     return notif.error("Please enter a valid email address.")
+        // }
 
         // Encode the email components
         const subject = `Message from ${userInput.name}`;
         // const body = `Hello,\n\n${userInput.message}\n\nBest regards,\n${userInput.name}\n${userInput.email}`;
         const body = `Hello,\n\n${userInput.message}\n\nBest regards,\n${userInput.name}`;
+        // const body = `Hello,\n\n${userInput.message}\n\n---\nFrom: ${userInput.name}`;
         
         // Open default mail client in new tab
         const destMail = 'me677488@gmail.com';
@@ -189,7 +190,7 @@ function ContactForm({ contactActive, closeContactForm }) {
         // Clear the form
         setUserInputs({
             name: "",
-            email: "",
+            // email: "",
             message: ""
         });
         
@@ -216,14 +217,14 @@ function ContactForm({ contactActive, closeContactForm }) {
                         onChange={handleInput} 
                     />
 
-                    <input 
+                    {/* <input 
                         type="email" 
                         name="email" 
                         className="w-full px-2 py-[12px] mb-4 rounded-md bg-dark-100 border-[2px] border-none outline-none" 
                         placeholder='johndoe@mail.com' 
                         value={userInput.email} 
                         onChange={handleInput} 
-                    />
+                    /> */}
 
                     <textarea 
                         cols="30" 
