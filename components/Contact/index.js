@@ -178,10 +178,11 @@ function ContactForm({ contactActive, closeContactForm }) {
         const subject = `Message from ${userInput.name}`;
         // const body = `Hello,\n\n${userInput.message}\n\nBest regards,\n${userInput.name}\n${userInput.email}`;
         const body = `Hello,\n\n${userInput.message}\n\nBest regards,\n${userInput.name}\n testing socials${socials.email}`;
+        console.log(body);
         
         // Open default mail client in new tab
         window.open(
-            `mailto:${socials.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`,
+            `mailto:me677488@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`,
             '_blank'
         );
         
