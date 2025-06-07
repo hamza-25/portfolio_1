@@ -1,12 +1,33 @@
 {
     "projects":[
         {
-            "title": "movie show",
+            "title": "Payments Integration Stripe and PayPal",
+            "imageUrl": "https://res.cloudinary.com/dilf6nsca/image/upload/v1749313085/paymentPoto_iz5sw4.jpg",
+            "project_url": "https://payment-dwh4.onrender.com/",
+            "description": "EI build and deploy online websites that demonstrate payments using test cards from Stripe and PayPal, including PayPal credentials.",
+            "tags": [  "html", "Tailwind Css ",  "Express Js" ]
+        },
+        {
+            "title": "Matjarify Platform",
+            "imageUrl": "https://res.cloudinary.com/dilf6nsca/image/upload/v1749321208/matjarify_Photo_ztm2vh.jpg",
+            "project_url": "https://matjarify.ma/en",
+            "description": "Matjarify is a platform that provides multiple seller stores, allowing users to create their own stores and sell products.",
+            "tags": [ "NextJs", "Node js", "Express js", "APis", "Mysql" ]
+        },
+        {
+            "title": "Blogit",
+            "imageUrl": "https://res.cloudinary.com/dilf6nsca/image/upload/v1742308734/projects%20photo/exzrmm2xacyw7vs3gjr9.jpg",
+            "videoUrl": "",
+            "project_url": "https://github.com/mahmoudsalah296/Blog-it",
+            "description": "develop a platform that a blog post.",
+            "tags": [ "react", "nodejs", "MongoDb" ]
+        },
+        {
+            "title": "Movie App",
             "imageUrl": "https://res.cloudinary.com/dilf6nsca/image/upload/v1743688292/projects%20photo/sg1idwte4hpmo2l2zol7.jpg",
-            "videoUrl": "https://res.cloudinary.com/dilf6nsca/video/upload/v1743605876/projects%20video/vdduibdpzgmlcyddcj8u.mp4",
-            "project_url": "https://github.com/hamza-25",
-            "description": "single page that shows movies",
-            "tags": [ "HTML", "tailwind", "javascript" ]
+            "project_url": "https://github.com/hamza-25/",
+            "description": "single page that shows movies and series with their details.",
+            "tags": [ "javascript", "css", "html"]
         },
         {
             "title": "school management system",
@@ -23,14 +44,6 @@
             "project_url": "https://github.com/hamza-25",
             "description": "dental clinic",
             "tags": [ "HTML", "css", "javascript" ]
-        },
-        {
-            "title": "Blogit",
-            "imageUrl": "https://res.cloudinary.com/dilf6nsca/image/upload/v1742308734/projects%20photo/exzrmm2xacyw7vs3gjr9.jpg",
-            "videoUrl": "",
-            "project_url": "https://github.com/mahmoudsalah296/Blog-it",
-            "description": "develop a platform that a blog post.",
-            "tags": [ "react", "nodejs", "MongoDb" ]
         },
         {
             "title": "eCommerce Website",
@@ -57,14 +70,7 @@
             "tags": [ "html", "css", "python", "javascript", "flask", "mysql" ]
         },
         {
-            "title": "SuperVisor Dashboard",
-            "imageUrl": "https://res.cloudinary.com/dilf6nsca/image/upload/v1742599447/projects%20photo/o3uqomv8wb6czstvkjc2.jpg",
-            "videoUrl": "",
-            "project_url": "https://github.com/hamza-25/matjarify_supervisor",
-            "description": "Easy dashboard for the supervisor to manage the store",
-            "tags": [  "html", "css ",  "Nextjs" ]
-        },
-        {
+
             "title": "AirBnB",
             "imageUrl": "https://res.cloudinary.com/dilf6nsca/image/upload/v1742601309/projects%20photo/fdcd0h320lqifz2frhfg.jpg",
             "videoUrl": "",
