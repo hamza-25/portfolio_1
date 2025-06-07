@@ -4,7 +4,7 @@
             "title": "Payments Integration Stripe and PayPal",
             "imageUrl": "https://res.cloudinary.com/dilf6nsca/image/upload/v1749313085/paymentPoto_iz5sw4.jpg",
             "project_url": "https://payment-dwh4.onrender.com/",
-            "description": "EI build and deploy online websites that demonstrate payments using test cards from Stripe and PayPal, including PayPal credentials.",
+            "description": "I build and deploy online websites that demonstrate payments using test cards from Stripe and PayPal, including PayPal credentials.",
             "tags": [  "html", "Tailwind Css ",  "Express Js" ]
         },
         {
@@ -19,7 +19,7 @@
             "imageUrl": "https://res.cloudinary.com/dilf6nsca/image/upload/v1742308734/projects%20photo/exzrmm2xacyw7vs3gjr9.jpg",
             "videoUrl": "",
             "project_url": "https://github.com/mahmoudsalah296/Blog-it",
-            "description": "develop a platform that a blog post.",
+            "description": "Blogit is a blogging platform that allows users to create and manage their own blogs.",
             "tags": [ "react", "nodejs", "MongoDb" ]
         },
         {
