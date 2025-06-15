@@ -45,10 +45,10 @@ function NavBar() {
                                 <small>Github</small>
                             </a>}
 
-                        {socials["email"] !== "" &&
-                            <a href={`mailto:${socials["email"]}`} className={`w-[100px] text-[17px] flex flex-row align-center justify-center items-center decoration-none  hover:text-white `}>
-                                <FiMail className={`mr-[10px] icon mail`} />
-                                <small>Email</small>
+                        {socials["linkedin"] !== "" &&
+                            <a href={socials["linkedin"]} target="_blank" className={`w-[100px] text-[17px] flex flex-row align-center justify-center items-center decoration-none  hover:text-white `}>
+                                <FiMail className={`mr-[10px] icon linkedin`} />
+                                <small>Linkedin</small>
                             </a>}
 
                     </ul>

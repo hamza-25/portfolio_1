@@ -25,9 +25,9 @@ function Footer() {
 
               {socials["github"] !== "" && <SocialLink url={socials["github"]} children={<FaGithub />} />}
 
-              {socials["email"] !== "" && <SocialLink url={socials["email"]} children={<AiFillMail />} />}
+              {/* {socials["email"] !== "" && <SocialLink url={socials["email"]} children={<AiFillMail />} />}
 
-              {socials["facebook"] !== "" && <SocialLink url={socials["facebook"]} children={<FaFacebook />} />}
+              {socials["facebook"] !== "" && <SocialLink url={socials["facebook"]} children={<FaFacebook />} />} */}
             </div>
           </div>
 

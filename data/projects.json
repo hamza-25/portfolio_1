@@ -3,6 +3,7 @@
         {
             "title": "Payments Integration Stripe and PayPal",
             "imageUrl": "https://res.cloudinary.com/dilf6nsca/image/upload/v1749313085/paymentPoto_iz5sw4.jpg",
+            "videoUrl": "https://res.cloudinary.com/dilf6nsca/video/upload/v1749312698/payments_s9a4db.mp4",
             "project_url": "https://payment-dwh4.onrender.com/",
             "description": "I build and deploy online websites that demonstrate payments using test cards from Stripe and PayPal, including PayPal credentials.",
             "tags": [  "html", "Tailwind Css ",  "Express Js" ]
@@ -13,6 +14,14 @@
             "project_url": "https://matjarify.ma/en",
             "description": "Matjarify is a platform that provides multiple seller stores, allowing users to create their own stores and sell products.",
             "tags": [ "NextJs", "Node js", "Express js", "APis", "Mysql" ]
+        },
+        {
+            "title": "Automation Tool needjs-cli",
+            "imageUrl": "https://res.cloudinary.com/dilf6nsca/image/upload/v1749990493/needjs-cli_pic_ndsyrs.png",
+            "videoUrl": "https://res.cloudinary.com/dilf6nsca/video/upload/v1749991308/needjs-cli_AUTH_osqrme.mp4",
+            "project_url": "https://github.com/hamza-25/needJs",
+            "description": "needjs-cli serve to save time and reduce repetitive work during build nodeJs project.",
+            "tags": [ "nodejs" ]
         },
         {
             "title": "Blogit",

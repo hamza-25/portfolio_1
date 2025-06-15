@@ -7,6 +7,7 @@ import emailjs from '@emailjs/browser';
 import { Notification, validateEmail } from '../../helpers'
 import { EMAILJS_TEMPLATE_ID, EMAILJS_SERVICE_ID, EMAILJS_PUBLIC_KEY } from '../../config';
 // import info from '../../data/socials.json';
+import userInfos from '../../data/usersInfo.json';
 
 const notif = new Notification(3000)
 
@@ -24,18 +25,26 @@ function Contact() {
                     <br />
                     <a id='contact'></a>
                     <p data-aos="fade-right" className=" text-[20px] ">
-                        Start by <span className=" text-green-200 underline cursor-pointer " onClick={openContactForm}>saying hi</span>
+                        Start by <span className=" text-green-200 underline cursor-pointer " onClick={openContactForm}>
+                                <a href={`https://wa.me/${userInfos.phone}`} target='_blank'>
+                                saying hi
+                                   
+                                 </a>
+                            </span>
                     </p>
                 </div>
             </Container>
 
 
             {/* contact form */}
-            <ContactForm closeContactForm={closeContactForm} contactActive={contactActive} />
+            {/* <ContactForm closeContactForm={closeContactForm} contactActive={contactActive} /> */}
 
             <div id="floating-btn" className="fixed bottom-20 right-5 z-[100] flex flex-col items-center justify-center md:bottom-10 ">
                 <span className={`flex flex-col items-center justify-center p-[12px] bg-dark-400 rounded-[50%] border-green-2003 transition-all scale-[.80] hover:scale-[.95] cursor-pointer `}>
-                    <AiFillMessage className='text-[30px] text-green-200 ' onClick={openContactForm} />
+                    {/* <AiFillMessage className='text-[30px] text-green-200 ' onClick={openContactForm} /> */}
+                    <a href={`https://wa.me/${userInfos.phone}`} target='_blank'>
+                        <img src='https://res.cloudinary.com/dilf6nsca/image/upload/v1750015704/whatsapp_clnlib.png' width="50" height="50" />
+                    </a>
                 </span>
             </div>
 
@@ -183,7 +192,8 @@ function ContactForm({ contactActive, closeContactForm }) {
         // Open default mail client in new tab
         const destMail = 'me677488@gmail.com';
         window.open(
-            `mailto:${destMail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`,
+            `https://wa.me/0659312398`,
+            // `mailto:${destMail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`,
             '_blank'
         );
         
